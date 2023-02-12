@@ -1,2 +1,3 @@
 # Decrease-Overfitting-using-Image-Augmentation
-The purpose of this project is to tackle the problem of overfitting.
+The purpose of this project is to tackle the problem of overfitting in computer vison using data augmenation, i.e. subjecting the input images to multiple edits such as zoom, contrast, rotation such that model will have to face more variation when training and therfore will predict better to images from the wild, i.e. the test dataset.
+In the notebook, dataset is imported from a link. The data is then observed and made into inputs and labels. The datsets are then split into training and testing datasets. First, a normal convolutional neural network is trained and evaluated. Its report is printed and we can see the clear difference between the evaluation on training and testing set. Second neural network includes layers for data augmentation, it is evaluated and the improvement can be seen in the report.  
